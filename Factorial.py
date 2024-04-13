@@ -1,4 +1,5 @@
-class factorial:
+class Factorial:
+    @staticmethod
     def task():
         fac = 1
         x = int(input("Enter a number"))
@@ -7,5 +8,5 @@ class factorial:
         print(fac)
 
 
-obj = factorial
+obj = Factorial
 obj.task()
